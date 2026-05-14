@@ -222,6 +222,6 @@ The project successfully demonstrates:
 
 ## ⭐ Thanks for Visiting ⭐
 
-### If you like this project, a star ⭐
+### If you like this project, Must give a star ⭐
 
 </div>
