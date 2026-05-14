@@ -30,4 +30,6 @@ sprite.setTexture(texture);
  }
  }
  void move(float dt) override {
+ }
+};
  
