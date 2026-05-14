@@ -1,75 +1,112 @@
-🐦 Flappy Bird Game
 <div align="center">
-A 2D Arcade Game Built Using C++ and SFML
-<img src="https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=c%2B%2B"> <img src="https://img.shields.io/badge/Library-SFML-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/Game-2D%20Arcade-red?style=for-the-badge">
-🎮 Real-Time 2D Game Development using C++ and SFML
+
+# 🐦 Flappy Bird Game
+
+### A Simple 2D Arcade Game Built with C++ and SFML
+
+<img src="https://img.shields.io/badge/C++-Programming-blue?style=for-the-badge&logo=c%2B%2B">
+<img src="https://img.shields.io/badge/SFML-Graphics_Library-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Game-2D_Arcade-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-Windows_|_Linux-orange?style=for-the-badge">
+
+<br>
+
+*A real-time Flappy Bird-inspired game demonstrating game loops, collision detection, physics simulation, and object-oriented programming.*
+
 </div>
-📌 Overview
 
-This project is a simple Flappy Bird-inspired 2D game developed using C++ and the SFML (Simple and Fast Multimedia Library) framework.
+---
 
-The game demonstrates important concepts of:
+# 📖 About The Project
 
-Real-time rendering
-Event handling
-Object-oriented programming
-Collision detection
-File handling
-Game physics simulation
+This project is a **Flappy Bird-inspired 2D game** developed using **C++** and the **SFML (Simple and Fast Multimedia Library)** framework.
 
-The player controls a bird that must pass through moving pipes without colliding. The score increases as obstacles are cleared, and the highest score is stored using file handling.
+The game focuses on implementing real-time game development concepts such as:
 
-✨ Features
+- 🎮 Real-time rendering
+- ⚡ Event handling
+- 🧠 Object-oriented programming
+- 💥 Collision detection
+- 📂 File handling
+- 🌍 Physics simulation
 
-✅ Smooth bird movement with gravity simulation
-✅ Dynamic pipe generation
-✅ Real-time collision detection
-✅ Score tracking system
-✅ Persistent high score storage
-✅ Easy and Hard gameplay modes
-✅ Interactive game over screen
-✅ Real-time rendering using SFML
-✅ Responsive keyboard controls
+Players control a bird that must pass through moving pipes without colliding.  
+The score increases as obstacles are cleared successfully, and the highest score is saved using file handling.
 
-🎯 Objectives
-Develop a graphical 2D game using C++ and SFML
-Implement object-oriented programming concepts
-Simulate real-time gameplay mechanics
-Implement collision detection logic
-Store and retrieve high scores using file handling
-Improve problem-solving and debugging skills
-Gain practical exposure to game development concepts
-🛠️ Technologies Used
-Category	Technology
-Programming Language	C++
-Graphics Library	SFML
-Compiler	GCC / Dev-C++
-IDE / Editor	VS Code
-Operating System	Windows / Linux
-⚙️ Game Mechanics
+---
 
-The game logic is based on:
+# ✨ Features
 
-Continuous game loop execution
-Gravity affecting bird movement
-User input to move the bird upward
-Pipes moving horizontally across the screen
-Collision detection using bounding boxes
-Score increment after passing pipes
-High score storage using files
-🧠 Concepts Used
+<table>
+<tr>
+<td>✅ Smooth Bird Movement</td>
+<td>✅ Gravity Simulation</td>
+</tr>
 
-This project demonstrates the implementation of:
+<tr>
+<td>✅ Dynamic Pipe Generation</td>
+<td>✅ Collision Detection</td>
+</tr>
 
-Object-Oriented Programming (OOP)
-Classes and Encapsulation
-Event-Driven Programming
-Real-Time Rendering
-Physics Simulation
-Collision Detection
-File Handling
-Modular Programming
-📂 Project Structure
+<tr>
+<td>✅ Score Tracking System</td>
+<td>✅ Persistent High Score</td>
+</tr>
+
+<tr>
+<td>✅ Easy & Hard Modes</td>
+<td>✅ Responsive Controls</td>
+</tr>
+
+<tr>
+<td>✅ Real-Time Rendering</td>
+<td>✅ Game Over Screen</td>
+</tr>
+</table>
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| **C++** | Core Programming Language |
+| **SFML** | Graphics & Multimedia Library |
+| **VS Code** | Development Environment |
+| **GCC / Dev-C++** | Compilation |
+| **Windows / Linux** | Supported Platforms |
+
+---
+
+# 🧠 Concepts Implemented
+
+- Object-Oriented Programming (OOP)
+- Classes and Encapsulation
+- Game Loop Architecture
+- Event-Driven Programming
+- Real-Time Rendering
+- Collision Detection
+- File Handling
+- Physics-Based Movement
+
+---
+
+# ⚙️ Game Logic
+
+The game works using a continuous game loop where:
+
+1. Gravity pulls the bird downward  
+2. Player input moves the bird upward  
+3. Pipes move continuously from right to left  
+4. Collision is checked every frame  
+5. Score increases when pipes are crossed  
+6. High score is stored using files  
+
+---
+
+# 📂 Project Structure
+
+```bash
 Flappy-Bird-Game/
 │
 ├── assets/
@@ -92,68 +129,99 @@ Flappy-Bird-Game/
 ├── highscore.txt
 ├── README.md
 └── LICENSE
-▶️ How to Run
-1️⃣ Install SFML
+```
+
+---
+
+# ▶️ Installation & Setup
+
+## 1️⃣ Install SFML
 
 Download SFML from:
 
-🔗 SFML Official Website
+🔗 https://www.sfml-dev.org/
 
-2️⃣ Compile the Program
+---
+
+## 2️⃣ Compile the Project
+
+```bash
 g++ main.cpp -o flappybird -lsfml-graphics -lsfml-window -lsfml-system
-3️⃣ Run the Executable
+```
+
+---
+
+## 3️⃣ Run the Game
+
+```bash
 ./flappybird
-🎮 Controls
-Key	Action
-SPACE	Move Bird Up
-ENTER	Restart Game
-ESC	Exit Game
-📊 Results
+```
 
-The game successfully demonstrates:
+---
 
-Smooth gameplay mechanics
-Dynamic obstacle generation
-Responsive controls
-Stable real-time rendering
-Accurate collision handling
-Persistent score tracking
+# 🎮 Controls
 
-The gameplay remains stable and interactive throughout execution.
+| Key | Action |
+|-----|--------|
+| `SPACE` | Move Bird Up |
+| `ENTER` | Restart Game |
+| `ESC` | Exit Game |
 
-🖼️ Screenshots
-🏠 Main Menu
+---
 
-Displays the game title and start options.
+# 📸 Game Screens
 
-🎮 Gameplay
+### 🏠 Main Menu
+Displays the title screen and game options.
 
-Real-time gameplay with moving pipes and gravity mechanics.
+### 🎮 Gameplay Mode
+Real-time gameplay with moving obstacles and scoring.
 
-🔥 Hard Mode
+### 🔥 Hard Mode
+Increased speed and difficulty level.
 
-Increased difficulty with faster obstacles.
+### 💀 Game Over Screen
+Displays the final score and high score.
 
-💀 Game Over Screen
+---
 
-Displays final score and high score after collision.
+# 📊 Results
 
-🚀 Future Improvements
-Add background music and sound effects
-Improve graphics and animations
-Add pause and restart menus
-Introduce multiple levels
-Add advanced physics simulation
-Develop mobile and web versions
-Implement online leaderboard system
-📚 References
-Practical C++ Programming Resources
-SFML Documentation
-Game Development Tutorials
-C++ Programming Guides
+The project successfully demonstrates:
+
+- Smooth gameplay mechanics
+- Stable real-time rendering
+- Dynamic obstacle generation
+- Responsive user interaction
+- Accurate collision handling
+- Persistent score management
+
+---
+
+# 🚀 Future Improvements
+
+- 🎵 Add sound effects and background music
+- 🎨 Improve graphics and animations
+- 🧩 Add multiple levels and difficulty modes
+- ⏸️ Add pause and resume functionality
+- 🌐 Develop web/mobile versions
+- 🏆 Implement online leaderboard system
+
+---
+
+# 📚 References
+
+1. SFML Documentation  
+2. Practical C++ Programming Resources  
+3. Game Development Tutorials  
+4. C++ Programming Guides  
+
+---
+
 <div align="center">
-⭐ Flappy Bird Game using C++ and SFML ⭐
 
-A simple project demonstrating real-time game development concepts.
+## ⭐ Thanks for Visiting ⭐
+
+### If you like this project, a star ⭐
 
 </div>
