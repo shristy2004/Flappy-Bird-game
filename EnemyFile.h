@@ -17,4 +17,8 @@ speed = 200.0f;
 void move(float dt) override {
  sprite.move(0, speed * dt);
  }
+int getLane() const {
+ return laneIndex;
+ }
+};
 
