@@ -14,4 +14,7 @@ sprite.setPosition(x, -100);
 speed = 200.0f;
  laneIndex = lane;
  }
+void move(float dt) override {
+ sprite.move(0, speed * dt);
+ }
 
