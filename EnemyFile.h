@@ -10,4 +10,5 @@ public:
  sprite.setScale(0.35f, 0.35f);
 FloatRect bounds = sprite.getLocalBounds();
  sprite.setOrigin(bounds.width / 2, bounds.height / 2);
+sprite.setPosition(x, -100);
 
