@@ -11,4 +11,7 @@ public:
 FloatRect bounds = sprite.getLocalBounds();
  sprite.setOrigin(bounds.width / 2, bounds.height / 2);
 sprite.setPosition(x, -100);
+speed = 200.0f;
+ laneIndex = lane;
+ }
 
