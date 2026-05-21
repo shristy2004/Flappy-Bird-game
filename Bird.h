@@ -13,4 +13,7 @@ Bird(sf::Texture& texture, float startX, float startY) {
  gravity = 1000.f;
  flapStrength = -380.f;
  sprite.setTexture(texture);
-
+sf::Vector2u texSize = texture.getSize();
+ float scaleX = RENDER_W / (float)texSize.x;
+ float scaleY = RENDER_H / (float)texSize.y;
+ sprite.setScale(
