@@ -7,4 +7,5 @@ public:
 float gravity;
  float flapStrength;
 static const float RENDER_W;
- static const f
+ static const float RENDER_H;
+
