@@ -6,3 +6,5 @@ public:
  float velocity
 float gravity;
  float flapStrength;
+static const float RENDER_W;
+ static const f
